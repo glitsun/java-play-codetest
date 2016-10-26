@@ -1,0 +1,9 @@
+@import helper._
+@form(action = routes.CustomerController.upload, 'enctype -> "multipart/form-data") {
+
+    <input type="file" name="customer">
+    <p>
+        <input type="submit">
+    </p>
+
+}

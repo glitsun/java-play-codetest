@@ -10,3 +10,7 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 
 POST 	/sortCustomers				controllers.CustomerController.sort
+
+POST	/upload						controllers.CustomerController.upload
+
+GET		/uploadview					controllers.CustomerController.uploadview
